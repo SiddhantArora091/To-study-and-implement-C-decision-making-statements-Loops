@@ -1,0 +1,40 @@
+EXPERIMENT - 6
+Siddhant Arora
+24070123107
+ENTC B1
+
+
+#include <iostream>
+using namespace std;
+int main() {
+    int password = 678;  
+    int user_password;
+    int attempts=3; 
+    while(attempts>0) {
+        cout<<"Enter the password: ";
+        cin>>user_password; 
+        if(user_password==password) {
+            cout<<"System is unlocked"<<endl;
+            break;
+        }else{
+            attempts--;
+            if(attempts>0){
+                cout<<"Incorrect Password. Try again. Attempts left: "<<attempts<<endl;
+            }else{
+                cout<<"No attempts left. System locked."<<endl;
+            }
+        }
+    }return 0;
+}
+/*Output:-
+Enter the password: 464
+Incorrect Password. Try again. Attempts left: 2
+Enter the password: 
+6 
+
+Incorrect Password. Try again. Attempts left: 1
+Enter the password: 
+8 
+
+No attempts left. System locked.
+*/
