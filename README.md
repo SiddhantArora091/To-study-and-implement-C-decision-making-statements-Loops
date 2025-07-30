@@ -1,8 +1,8 @@
-Prateek Sinha
+Siddhant Arora
 
-24070123077
+24070123107
 
-ENTC A3
+ENTC B1
 
 # C++ Programs Collection
 
